@@ -85,6 +85,7 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 ### Alternative CPLDs
 
 | Part Number | Notes | Changes to BOM Above |
+| ----------- | ----------- | ----------- |
 | EPM240T100C5N | Can also use I5N variant. | No changed from BOM listed above required. |
 | EPM570T100C5N | Can also use I5N variant. | No changed from BOM listed above required. |
 | EPM240GT100C5N | 1.8v VCC_INT. Can also use I5N variant.  | **DO NOT POPULATE R1. FIT LM1117-1.8 in U3.** |
