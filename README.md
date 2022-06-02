@@ -52,6 +52,7 @@ If using a Pi Zero2 then it is unlikely you will need to apply additional power.
 ## Known Issues
 There are several issues with the PiStorm when used in the Amiga 600 which are outlined below. If you encounter any further issues that are not mentioned, please post any issues over in the #pistorm600 channel on Discord. You can also report any hardware issues with the PiStorm600 board here. Otherwise if they are emulator related issues please report them on the relevant PiStorm or Emu68 GitHub pages.
 
+- Mushashi - Appears to work when emulator is first loaded, but often shows a corrupt screen, hangs, or gurus after a soft reboot with CTRL+A+A. Once the emulator is restarted it seems fine again until rebooted. Only affects Mushahi, Emu68 appears to work as expected.
 - Mushashi - MapROM currently does not work so you require a physical ROM to be installed in your machine.
 - Emu68 - Only currently working with Kickstart 3.1 and 3.2 (either physical or mapped ROMs). 
 - PCMCIA Network Cards - Currently some PCMCIA network cards are reported to not be working by some users, but your mileage may vary. Please feel free to report what cards are and are not working over on Discord. This is not such a big issue as A314 networking is a better option to use, and network support will soon be coming to Emu68.
