@@ -73,10 +73,11 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 | U2 | LM1117-3.3 | SOT-223 | |
 | U4,U5,U6,U7 | SN74LVC16374DGGR | TSSOP-48 | Can use SN74LVC16373 as an alternative |
 | U8 | EPM240T100C5N | LQFP-100 | Please see notes below on alternative CPLDs |
-| U10,U11 | SN74CBTD3384PWLE |TSSOP-24 | |
+| U10,U11 | SN74CBTD3384PWLE |TSSOP-24 | If using the Rev B board then SSOP-24 parts can also be used|
 | U1 |  | PLCC68 Socket| A good quality socket such as an Augat PCS-068A, TE Connectivity or Amphenol is desirable. For a better fit on the A600 CPU, please modify the socket as per the instructions [here](PLCC-Rework.md) |
 | U9 |  | 40-Pin Female Pin Header | |
 | J1 |  | 171826-4 | TE Connectivity floppy power header (or compatible connector) **NOTE** use a keyed header and NOT just some standard pin header. Connecting the power incorrectly will damage your PiStorm board and possibly your Amiga |
+| J2 |  | Fan Header | **Only on Rev B boards.** Any 2 pin connector can be used (XH2.54 seems to be the common connector on 40mm fans). Only recommend connecting a fan if applying addtional power via J1 |
 
 **Do not populate any parts not listed above, details below** 
 - R8 is a placeholder that can be used to passthrough BR if bus arbitration is ever supported by the CPLD.
@@ -94,6 +95,19 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 | 5M240ZT100C5N | **MaxV CPLD - NOT RECOMMENDED TO USE AT PRESENT.** 1.8v VCC_INT. Can also use I5N variant. | **DO NOT POPULATE R1. FIT LM1117-1.8 in U3.** |
 
 **You can also find an interactive BOM located in the BOM folder.**
+
+---
+
+## Revision History
+
+### Revision A
+- Original design
+
+### Revision B
+- Created a hybrid footprint so that either TSSOP or SSOP SN74CBTD3384's can be used.
+- Moved a couple of traces and vias to accomodate new footprint, and tidied up some other traces and vias.
+- Added teardrops for pads and vias.
+- Added a pin header option for a fan (any 2pin or XH2.54 connector should do). Only recommended to use if applying external power.
 
 ---
 
