@@ -1,9 +1,9 @@
 # PiStorm600
-This is a Amiga 600 compatible rework of the original PiStorm Rev. B board. It clips over the 68000 CPU of the A600 using an inverted PLCC socket in the same way as many other A600 accelerators. Once fitted it disables the onboard CPU and allows the CPU emulator that it running on the Pi (Mushashi or Emu68) to take over.
+This is a Amiga 600 compatible rework of the original PiStorm Rev. B board. It clips over the 68000 CPU of the A600 using an inverted PLCC socket in the same way as many other A600 accelerators. Once fitted it disables the onboard CPU and allows the CPU emulator that is running on the Pi (Mushashi or Emu68) to take over.
 
 ![PiStorm600](Images/PiStorm600.jpg)
 
-Please find details on the original PiStorm project on the main GitHub page. This covers the installation and setup of the original PiStorm board, and all the information found there also applies to this A600 version. You can find the original project here: https://github.com/captain-amygdala/pistorm
+Please find details of the original PiStorm project on the main GitHub page. This covers the installation and setup of the original PiStorm board, and all the information found there also applies to this A600 version. You can find the original project here: https://github.com/captain-amygdala/pistorm
 
 There is also a Discord server that is dedicated to the PiStorm project. Here you can get support and discuss development. To join use the invite link: https://discord.gg/Gc36ebUXeM
 
