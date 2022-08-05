@@ -68,7 +68,7 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 | C18,C19,C20,C21,C22 | 10uf | 0805 | |
 | R1,R5,R9 | 0R | 0603 | |
 | R2,R3 | 4.7k | 0603 | |
-| R6 | R220 | 0603 | |
+| R6 | 220R | 0603 | |
 | R7 | 1K | 0603 | |
 | U2 | LM1117-3.3 | SOT-223 | |
 | U4,U5,U6,U7 | SN74LVC16374DGGR | TSSOP-48 | Can use SN74LVC16373 as an alternative |
