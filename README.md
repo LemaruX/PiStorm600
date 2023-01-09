@@ -75,7 +75,7 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 | U2 | LM1117-3.3 | SOT-223 | |
 | U4,U5,U6,U7 | SN74LVC16374DGGR | TSSOP-48 | Can use SN74LVC16373 as an alternative |
 | U8 | EPM240T100C5N | LQFP-100 | Please see notes below on alternative CPLDs |
-| U10,U11 | SN74CBTD3384PWLE |TSSOP-24 | If using the Rev B board then SSOP-24 parts can also be used|
+| U10,U11 | SN74CBTD3384PWLE |TSSOP-24 | If using the Rev B board then SSOP-24 parts such as SN74CBTD3384DBR can also be used|
 | U1 |  | PLCC68 Socket| A good quality socket such as an Augat PCS-068A, TE Connectivity or Amphenol is desirable. For a better fit on the A600 CPU, please modify the socket as per the instructions [here](PLCC-Rework.md) |
 | U9 |  | 40-Pin Female Pin Header | |
 | J1 |  | 171826-4 | TE Connectivity floppy power header (or compatible connector) **NOTE** use a keyed header and NOT just some standard pin header. Connecting the power incorrectly will damage your PiStorm board and possibly your Amiga |
