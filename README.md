@@ -56,8 +56,10 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 **WORKAROUND** - If you wish to use Mushashi, you can resolve these issues by using the PiStormX firmware here https://github.com/LemaruX/PiStorm-Firmware
 - Mushashi - MapROM currently does not work so you require a physical ROM to be installed in your machine.
 **WORKAROUND** - As above, to resolve Mushashi issues, use the PiStormX firmware here https://github.com/LemaruX/PiStorm-Firmware
-- Emu68 - Only currently working with Kickstart 3.1 and 3.2 (either physical or mapped ROMs). **This is resolved in the latest nightly builds**
 - PCMCIA Network Cards - Currently some PCMCIA network cards are reported to not be working by some users, but your mileage may vary. Please feel free to report what cards are and are not working over on Discord. This is not such a big issue as A314 networking is a better option to use, and network support will soon be coming to Emu68.
+
+**When using a PiStorm in an A600 it is strongly advised to use Emu68 rather than Musashi.**
+
 
 ---
 
