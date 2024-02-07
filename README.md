@@ -57,6 +57,7 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 - Mushashi - MapROM currently does not work so you require a physical ROM to be installed in your machine.
 **WORKAROUND** - As above, to resolve Mushashi issues, use the PiStormX firmware here https://github.com/LemaruX/PiStorm-Firmware
 - PCMCIA Network Cards - Currently some PCMCIA network cards are reported to not be working by some users, but your mileage may vary. Please feel free to report what cards are and are not working over on Discord. This is not such a big issue as A314 networking is a better option to use, and network support will soon be coming to Emu68.
+- Jumping mouse pointer issue - If you find your mouse pointer starts jumping around by itself then install the "Long Hold" firmware from here https://github.com/LemaruX/PiStorm-Firmware
 
 **When using a PiStorm in an A600 it is strongly advised to use Emu68 rather than Musashi.**
 
@@ -75,7 +76,7 @@ There are several issues with the PiStorm when used in the Amiga 600 which are o
 | R6 | 220R | 0603 | |
 | R7 | 1K | 0603 | |
 | U2 | LM1117-3.3 | SOT-223 | |
-| U4,U5,U6,U7 | SN74LVC16374DGGR | TSSOP-48 | Can use SN74LVC16373 as an alternative |
+| U4,U5,U6,U7 | SN74LVC16374DGGR | TSSOP-48 | Can use SN74LVC16373 as an alternative (Can use either TI or Nexperia parts) |
 | U8 | EPM240T100C5N | LQFP-100 | Please see notes below on alternative CPLDs |
 | U10,U11 | SN74CBTD3384PWLE |TSSOP-24 | If using the Rev B board then SSOP-24 parts such as SN74CBTD3384DBR can also be used|
 | U1 |  | PLCC68 Socket| A good quality socket such as an Augat PCS-068A, TE Connectivity or Amphenol is desirable. For a better fit on the A600 CPU, please modify the socket as per the instructions [here](PLCC-Rework.md) |
